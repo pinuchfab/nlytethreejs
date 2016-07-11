@@ -1,0 +1,44 @@
+html, body {
+	height: 100%;
+	margin: 0px; 
+	padding: 0px;
+}
+
+.splash {
+	margin: 0 auto;
+    margin-top: 25px;
+    width: 85%;
+    padding: 25px;
+    background: beige;
+    border-radius: 25px;
+    text-align: center;
+}
+
+//
+// Cabinet view.
+//
+
+.full-height {
+	height:100%;
+}
+
+#cabinet-view {
+	height: 100%;
+	margin-bottom: 50px;'
+}
+
+#materials-tree {
+	height: 100%;
+}
+
+#cabinet-3d {
+	height: 100%;
+}
+
+#cabinet-properties {
+	height: 50px;
+}
+
+#cabinet-controls {
+	height: 10px;
+}

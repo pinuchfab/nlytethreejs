@@ -1,0 +1,32 @@
+<template>
+	<div class="uk-margin">
+	    <nav class="uk-navbar">
+	    	<ul class="uk-navbar-nav uk-hidden-small">
+                <li class="uk-active">
+	                <a href="#"><i class="uk-icon-home"></i></a>
+	            </li>
+                <li class="">
+	                <a href="#/cabinet">Cabinet</a>
+	            </li>                        
+            </ul>
+            <ul class="uk-navbar-nav uk-visible-small">
+            	<li class="uk-parent" data-uk-dropdown>
+            		<a href click.trigger="onToggleClicked()" class="uk-navbar-toggle"></a>
+            		<div id="toggle-menu" class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
+	                    <ul class="uk-nav uk-nav-navbar">
+	                        <li class="uk-active">
+	                			<a href="#"><i class="uk-icon-home"></i></a>
+	            			</li>
+                			<li class="">
+	                			<a href="#/cabinet">Cabinet</a>
+	            			</li>  
+	                    </ul>
+	                </div>
+            	</li>
+	    	</ul>   
+    	</nav>
+	</div>
+	<div class="page-host">
+    	<router-view></router-view>
+  	</div>
+</template>
